@@ -1,9 +1,10 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include <time.h>
 /**
  * main - Genarate a random number
  *
- * Return: Always 0 (Success)
+ * Return: 0 (Success)
  *
  */
 
