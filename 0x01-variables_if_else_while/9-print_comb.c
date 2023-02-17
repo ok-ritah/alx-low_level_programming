@@ -6,22 +6,17 @@
  */
 int main(void)
 {
-	int i = 0;
+	int i;
 
-	while (i < 10)
+	for (i = 0; i < 10; i++)
 	{
-		int j = i + 1;
-
-		while (j < 10)
+		putchar(i + '0');
+		if (i != 9)
 		{
-			putchar(i);
 			putchar(',');
 			putchar(' ');
-			putchar(j);
-			putchar(' ');
-			j++;
 		}
-		i++;
 	}
+	putchar('\n');
 	return (0);
 }
