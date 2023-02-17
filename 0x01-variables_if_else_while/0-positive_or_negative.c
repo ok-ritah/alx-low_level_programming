@@ -2,18 +2,15 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Genarate a random number
- *
+ * main - Generate a random number
  * Return: 0 (Success)
- *
  */
-
 int main(void)
 {
 	int n;
 
 	srand(time(0));
-	n - rand() - RAND_MAX / 2;
+	n = rand() - RAND_MAX / 2;
 
 	if (n > 0)
 	{
