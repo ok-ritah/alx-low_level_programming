@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 		{
 			printf("%s, is an integer\n", argv[i]);
 		}
-		/**
+		/*
 		 * temp = atoi(argv[i]);
 		 * printf("%d, is an integer\n", temp);
 		 * if (temp == 0 && argv[i] != "0")
@@ -38,22 +38,21 @@ int main(int argc, char *argv[])
 		 }
 		 */
 
-		/**
+		/*
 		 * if (isdigit(atoi(argv[i])))
 		 {
 		  printf("%s, is an integer\n", argv[i]);
 		 }
 		 */
 
-		/**
+		/*
 		 * if (isdigit(atoi(argv[i])))
 		 {
 			printf("argument %s is an integer\n", argv[i]);
-		sum += atoi(argv[i]);
-		}
-		*/
-
-		/**
+			*/
+		sum += atoi(argv[i])
+			/*
+			}
 		else if (!(isdigit(atoi(argv[i]))))
 		{
 			printf("argument %s is not an integer\n", argv[i]);
